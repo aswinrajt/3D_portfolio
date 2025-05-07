@@ -141,7 +141,7 @@ export const educationExperiences = [
     points: [
       "Completed training in MongoDB, Express.js, React, Angular, and Node.js.",
       "Built full-stack web applications and REST APIs.",
-      "Earned NAC-Tech certificate for successful internship completion.",
+      "Earned NACTET certificate in MEAN/MERN stack after successful internship completion.",
     ],
   },
 ];

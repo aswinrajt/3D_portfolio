@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 
 const SparkleEffect = () => {
   useEffect(() => {
-    const colors = ["#00f0ff", "#ff00c8", "#00ff9d", "#ffd700", "#915EFF"];
+    const colors = [""];
 
     const createSparkle = (x, y) => {
       const sparkle = document.createElement("div");
