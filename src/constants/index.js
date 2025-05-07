@@ -15,10 +15,9 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  college,
+  luminar,
+  geesesquads,
   carrent,
   jobit,
   tripguide,
@@ -114,60 +113,115 @@ const technologies = [
   },
 ];
 
-const experiences = [
+
+
+
+
+
+
+export const educationExperiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "BSc in Computer Science",
+    company_name: "Calicut University",
+    icon: college,
+    iconBg: "white",
+    date: "2021 - 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Completed Bachelor's Degree with core subjects in Computer Science.",
+      "Focused on programming, data structures, and web technologies.",
+      "Engaged in academic projects and technical seminars.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "MERN/MEAN Stack Intern",
+    company_name: "Luminar Technolab, Calicut",
+    icon: luminar,
+    iconBg: "#004aad",
+    date: "May 2024 - Dec 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Completed training in MongoDB, Express.js, React, Angular, and Node.js.",
+      "Built full-stack web applications and REST APIs.",
+      "Earned NAC-Tech certificate for successful internship completion.",
     ],
   },
 ];
+
+// 💼 WORK EXPERIENCE SECTION
+export const workExperiences = [
+  {
+    title: "Full Stack Developer Intern",
+    company_name: "GEESESQUADS, Calicut",
+    icon: geesesquads,
+    iconBg: "#0a9396",
+    date: "Dec 2024 - Present",
+    points: [
+      "Developed real-time applications using MERN stack.",
+      "Worked on production-level backend services and deployment.",
+      "Collaborated with designers and senior developers in Agile teams.",
+    ],
+  },
+];
+
+
+
+
+
+
+
+// const experiences = [
+//   {
+//     title: "React.js Developer",
+//     company_name: "Starbucks",
+//     icon: starbucks,
+//     iconBg: "#383E56",
+//     date: "March 2020 - April 2021",
+//     points: [
+//       "Developing and maintaining web applications using React.js and other related technologies.",
+//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+//       "Implementing responsive design and ensuring cross-browser compatibility.",
+//       "Participating in code reviews and providing constructive feedback to other developers.",
+//     ],
+//   },
+//   {
+//     title: "React Native Developer",
+//     company_name: "Tesla",
+//     icon: tesla,
+//     iconBg: "#E6DEDD",
+//     date: "Jan 2021 - Feb 2022",
+//     points: [
+//       "Developing and maintaining web applications using React.js and other related technologies.",
+//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+//       "Implementing responsive design and ensuring cross-browser compatibility.",
+//       "Participating in code reviews and providing constructive feedback to other developers.",
+//     ],
+//   },
+//   {
+//     title: "Web Developer",
+//     company_name: "Shopify",
+//     icon: shopify,
+//     iconBg: "#383E56",
+//     date: "Jan 2022 - Jan 2023",
+//     points: [
+//       "Developing and maintaining web applications using React.js and other related technologies.",
+//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+//       "Implementing responsive design and ensuring cross-browser compatibility.",
+//       "Participating in code reviews and providing constructive feedback to other developers.",
+//     ],
+//   },
+//   {
+//     title: "Full stack Developer",
+//     company_name: "Meta",
+//     icon: meta,
+//     iconBg: "#E6DEDD",
+//     date: "Jan 2023 - Present",
+//     points: [
+//       "Developing and maintaining web applications using React.js and other related technologies.",
+//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+//       "Implementing responsive design and ensuring cross-browser compatibility.",
+//       "Participating in code reviews and providing constructive feedback to other developers.",
+//     ],
+//   },
+// ];
 
 const testimonials = [
   {
@@ -262,4 +316,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, testimonials, projects };

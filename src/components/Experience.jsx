@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 import "react-vertical-timeline-component/style.min.css";
 
 import { styles } from "../styles";
-import { experiences } from "../constants";
+import { educationExperiences, workExperiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
@@ -27,7 +27,7 @@ const ExperienceCard = ({ experience }) => {
           <img
             src={experience.icon}
             alt={experience.company_name}
-            className='w-[60%] h-[60%] object-contain'
+            className='w-[100%] h-[100%] object-cover rounded-full'
           />
         </div>
       }
@@ -59,25 +59,53 @@ const ExperienceCard = ({ experience }) => {
 const Experience = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+     
+
+      {/* Education Section */}
+      <motion.div variants={textVariant()} className='mt-28'>
         <p className={`${styles.sectionSubText} text-center`}>
-          What I have done so far
+          Academic & Internship Background
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          Work Experience.
+          Education
         </h2>
       </motion.div>
 
       <div className='mt-20 flex flex-col'>
         <VerticalTimeline>
-          {experiences.map((experience, index) => (
+          {educationExperiences.map((experience, index) => (
             <ExperienceCard
-              key={`experience-${index}`}
+              key={`edu-${index}`}
               experience={experience}
             />
           ))}
         </VerticalTimeline>
       </div>
+
+<br /> <br /><br />
+
+       {/* Work Experience Section */}
+       <motion.div variants={textVariant()}>
+        <p className={`${styles.sectionSubText} text-center`}>
+          What I have done so far
+        </p>
+        <h2 className={`${styles.sectionHeadText} text-center`}>
+          Work Experience
+        </h2>
+      </motion.div>
+
+      <div className='mt-20 flex flex-col'>
+        <VerticalTimeline>
+          {workExperiences.map((experience, index) => (
+            <ExperienceCard
+              key={`work-${index}`}
+              experience={experience}
+            />
+          ))}
+        </VerticalTimeline>
+      </div>
+
+
     </>
   );
 };
